@@ -78,7 +78,7 @@ def get_args():
     parser.add_argument(
         "--output_directory",
         type=str,
-        default="./",
+        default="./data/",
         help="Path to downloaded directory",
     )
     parser.add_argument(
