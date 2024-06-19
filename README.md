@@ -16,7 +16,7 @@ A download script is provided [pubmed_download.py](https://github.com/VincentYin
 
 Example script execution to download 2023 documents from PubMed:
 ```
-python download_pubmed.py --start  "2023/01/01" --end "2023/12/31"
+python pubmed_download.py --start  "2023/01/01" --end "2023/12/31"
 ```
 
 Letters, review articles, and conference abstracts are saved in **pubmed_background.json**
