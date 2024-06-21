@@ -41,6 +41,8 @@ Although RAG can be excuted directly in the commandline[^4] for quick feedback a
 
 [medical_research_rag-crewai.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_research_rag-crewai.ipynb) : This notebook demonstrates multi-agent RAG with our research assistant workflow but doesn't include medical document ingestion.[^5]
 
+[medical_research_assistant.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_research_assistant.ipynb) : This notebook uses LangChain **JSONLoader**, **RetrievalQA** RAG chain, and **FAISS** instead of LlamaIndex vector store. Best run on Colab. [^10]
+
 ### Under Development
 
 [medical_ra_rag.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_ra_rag.ipynb) : Initial RAG Search on Academic Papers with LlamaIndex as **Chat Engine** in Context Mode[^6]
@@ -50,8 +52,6 @@ Although RAG can be excuted directly in the commandline[^4] for quick feedback a
 [medical_ra_rag-json_engine.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_ra_rag-json_engine.ipynb) : This notebook utilizes **JSONQueryEngine** with added schema knowledge of the indexed JSON documents.[^8]
 
 [medical_ra_rag-query_engines.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_ra_rag-query_engines.ipynb) : This notebook uses a **ReActAgent** with RAG QueryEngine Tools, a separate engine for background and reference.[^9]
-
-[medical_ra_rag-json_loader.ipynb](https://github.com/VincentYing/Medical_Research_RAG/blob/main/medical_ra_rag-json_loader.ipynb) : This notebook uses LangChain **JSONLoader** and **ChromaDB** instead of LlamaIndex vector store. [^10]
 
 ## References
 
